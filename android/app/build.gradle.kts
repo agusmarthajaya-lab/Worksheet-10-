@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.flutter_ui_fundamentals"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
