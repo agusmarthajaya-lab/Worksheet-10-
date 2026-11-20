@@ -11,6 +11,7 @@ Future<void> main() async {
   if (CloudConfig.enabled) {
     await Supabase.initialize(
       url: CloudConfig.url,
+      // ignore: deprecated_member_use
       anonKey: CloudConfig.publishableKey,
     );
   }
